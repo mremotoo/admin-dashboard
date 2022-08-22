@@ -1,0 +1,1 @@
+Building a full dashboard design from scatch. Will be utilizing CSS grid here for the layout.
