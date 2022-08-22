@@ -1,1 +1,1 @@
-Building a full dashboard design from scatch. Will be utilizing CSS grid here for the layout.
+A very cool personal project that is a responsive admin dashboard utilizeing CSS grid.
