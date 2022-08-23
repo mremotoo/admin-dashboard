@@ -89,20 +89,35 @@ table {
 .projects {
     grid-row: 1 / 3;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 25px;
 }
 
 .projects .card {
     background-color: white;
-    padding: 20px 20px 20px 20px;
+    /* padding: 20px 7px 20px 0; */
+    display: grid;
+    grid-template-columns: 1fr 30fr;
+    gap: 7px;
+    border-radius: 12px;
+}
+
+.color-block {
+    /* color: black; */
+    /* color: black; */
+    background: #4ade80;
+    /* height: 10%; */
+    width: 75%;
+    grid-row: 1 / -3;
+    border-radius: 20px 0 0 20px;
 }
 
 .card h2 {
     font-size: 1em;
     font-weight: bold;
     text-align: left;
-    padding: 0 0 5px 0;
+    /* padding: 0 0 5px 0; */
+    margin: 20px 0 0 0;
 }
 
 .card p {
